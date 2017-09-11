@@ -1,0 +1,392 @@
+
+//General
+"general_ok_text" = "Ok";
+"general_cancel_text" = "Cancel";
+"general_yes_text" = "Yes";
+"general_no_text" = "No";
+"general_not_now_text" = "Not now";
+"error_something_went_wrong" = "Something went wrong!\nPlease try after some time.";
+"error_no_internet" = "Please check your network connection and try again.";
+
+"currency_text" = "$";
+
+//Login
+"login_forgot_password_title_text" = "Forgot Password?";
+"login_forgot_pin_title_text" = "Forgot Pin?";
+"login_login_button_title_text" = "LOGIN";
+"login_mobile_no_placeholder_text" = "Mobile Number";
+"login_password_placeholder_text" = "Password";
+"login_pin_placeholder_text" = "Pin (6 digits)";
+"login_email_placeholder_text" = "Email";
+"login_country_code_placeholder_text" = "+1";
+"login_email_option_title_text" = "Email";
+"login_mobile_option_title_text" = "Mobile";
+
+
+"forgot_pwd_title_text" = "Forgot Password";
+"forgot_pwd_email_placeholder_text" = "Email";
+"forgot_pwd_next_btn_text" = "Next";
+"forgot_pwd_done_btn_text" = "Done";
+"forgot_pwd_or_text" = "or";
+"forgot_pwd_send_temp_pwd_text" = "Send temporary password on email";
+"forgot_pwd_set_pwd_text" = "New Password";
+"forgot_pwd_old_pwd_text" = "Old or Temp Password";
+"forgot_pwd_reset_pwd_text" = "Confirm Password";
+"forgot_pwd_reset_pwd_title_text" = "Reset Password";
+
+"forgot_pin_title_text" = "Forgot Pin";
+"forgot_verify_pin_title_text" = "Verify Pin";
+"forgot_pin_title_text2" = "OTP Verification";
+"forgot_pin_email_placeholder_text" = "Mobile number";
+"forgot_pin_reset_title_text" = "Reset Pin";
+"forgot_pin_otp_error_text" = "Please enter valid OTP";
+"forgot_pin_otp_sent_desc_text" = "Input the OTP sent on - ";
+"forgot_pwd_set_pin_text" = "Set Pin (6 digits)";
+"forgot_pwd_reset_pin_text" = "Confirm Pin (6 digits)";
+"forgot_pwd_pin_not_match_err_text" = "Set pin and confirm pin doesn't match";
+"forgot_pwd_pin_length_err_text" = "Set pin and confirm pin should be 6 digits";
+"forgot_pwd_pin_update_success_text" = "Mobile pin successfully updated!";
+"forgot_pin_otp_invalid_error_text" = "Please enter valid OTP";
+
+//Side Menu
+"sidemenu_home_title_text" = "Home";
+"sidemenu_calendar_title_text" = "Calendar";
+"sidemenu_revenue_title_text" = "Revenue";
+"sidemenu_quotation_title_text" = "Quotation";
+"sidemenu_service_price_title_text" = "Service Price";
+"sidemenu_offers_title_text" = "Offers";
+"sidemenu_team_members_title_text" = "Team Members";
+"sidemenu_profile_title_text" = "Profile";
+"sidemenu_rate_review_title_text" = "Rate & Review";
+"sidemenu_setting_title_text" = "Setting";
+"sidemenu_logout_title_text" = "Logout";
+
+"sidemenu_service_price_bike_title_text" = "Motor Bike Services";
+"sidemenu_service_price_car_title_text" = "Car Services";
+"sidemenu_service_price_truck_title_text" = "Truck Services";
+"sidemenu_service_price_mpv_title_text" = "Multipurpose Vehicle Service";
+"sidemenu_service_name_title_text" = "Service\nName";
+"sidemenu_service_avg_price_title_text" = "Avarage\nPrice";
+"sidemenu_service_your_pice_text" = "Your\nPrice";
+
+"sidemenu_my_logout_alert_text" = "Do you want to logout from app?";
+
+
+//Home - MyOrders
+"home_screen_title_text" = "My Orders";
+
+//Orders Status
+"order_status_screen_title_text" = "Order Update";
+"order_status_user_details_title_text" = "User Detail";
+"order_status_contact_title_text" = "Contact: ";
+"order_status_vehicle_title_text" = "Vehicle: ";
+"order_status_vehicle_number_title_text" = "Vehicle No.: ";
+"order_status_update_button_text" = "Update";
+
+"order_status_assign_pickup_text" = "Assign Pick up";
+"order_status_vehicle_received_text" = "Vehicle received at service center";
+"order_status_vehicle_take_for_service_text" = "Vehicle is taken for service";
+"order_status_issue_found_text" = "Additional issue found";
+"order_status_service_complete_text" = "Vehicle service completed";
+"order_status_ready_delivery_text" = "Vehicle ready for delivery";
+"order_status_assign_dropto_text" = "Assign Drop off";
+"order_status_left_for_delivery_text" = "Vehicle left for delivery";
+"order_status_deliverd_text" = "Vehicle deliverd to customer";
+"order_status_amount_received_text" = "Total amount received";
+"order_status_update_service_notes_text" = "Update service notes";
+"order_status_order_completed_text" = "Order completed";
+"order_status_add_note_text" = "";
+
+"order_status_max_img_count_alert_text" = "Uploaded maximum images";
+"order_status_upload_issue_image_text" = "Upload Issue Image";
+"order_status_update_confirmation_alert_text" = "Do you want to confirm the status:\n";
+"order_status_empty_issue_details_alert_text" = "Please add issue details";
+"order_status_invalid_issue_details_alert_text" = "Issue details should not more than 250 characters and max allowed spaces are 30";
+
+//My Orders
+"myorder_screen_title_text" = "My Orders";
+"myorder_order_no_title_text" = "Order No.: ";
+"myorder_total_title_text" = "Total: ";
+"myorder_decline_order_title_text" = "Decline Order";
+"myorder_confirm_order_title_text" = "Confirm Order";
+"myorder_appointment_time_title_text" = "Apt Time: ";
+"myorder_review_feedback_title_text" = "View Review and Feedback";
+
+"order_list_screen_no_new_order_title_text" = "There are no new orders to process";
+"order_list_screen_no_order_status_title_text" = "There are no existing orders to process";
+"order_list_screen_no_order_history_title_text" = "There are no completed orders";
+
+//Order Detail
+"order_detail_screen_title_text" = "Order Detail";
+"order_detail_user_detail_title_text" = "User Detail";
+"order_detail_merchant_contact_title_text" = "Contact: ";
+"order_detail_merchant_verified_title_text" = "Verified by Motrss";
+"order_detail_merchant_address_title_text" = "Address: ";
+"order_detail_charge_details_title_text" = "Service/Charges Detail";
+"order_detail_service_title_text" = "Services & Charges";
+"order_detail_total_amount_title_text" = "Total Amount";
+"order_detail_paid_amount_title_text" = "Amount Paid";
+"order_detail_balance_amount_title_text" = "Balance Amount";
+"order_detail_order_update_title_text" = "Order Update";
+
+"order_detail_status_title_text" = "Status: ";
+"order_detail_update_title_text" = "Order Update";
+"order_detail_apt_date_title_text" = "Appointment Date: ";
+"order_detail_apt_time_title_text" = "Appointment Time: ";
+"order_detail_vehicle_title_text" = "Vehicle: ";
+"order_detail_vehicle_number_title_text" = "Vehicle No.: ";
+"order_detail_contact_number_title_text" = "Contact: ";
+"order_detail_pickup_address_title_text" = "Pick Up Address: ";
+"order_detail_dropoff_address_title_text" = "Drop Off Address: ";
+
+"order_detail_accept_order_alert_text1" = "Do you want to want to confirm this order for:";
+"order_detail_accept_order_alert_text2" = "Date: ";
+"order_detail_accept_order_alert_text3" = "Time: ";
+
+"order_decline_reason_title_text" = "Decline Reason";
+"order_decline_apply_text" = "Apply";
+"receipt_chart_service_fees_text" = "Service Fees";
+"receipt_chart_service_fees_running_text" = "(to keep running this platform)";
+"receipt_chart_net_amount_text" = "Sub Total Amount";
+"receipt_chart_pickdrop_amount_text" = "Pickup/Drop Charges";
+"receipt_chart_discount_coupon_text" = "* Discount Coupon";
+"receipt_chart_total_amount_text" = "Total Amount";
+"receipt_chart_booking_amount_text" = "Booking Amount";
+"receipt_chart_taxes_detail_amount_text1" = "Taxes";
+
+"service_status_message_text_201" = "Order placed & confirmation pending from merchant";
+"service_status_message_text_205" = "Merchant accepted & confirmed order";
+"service_status_message_text_206" = "Merchant has rejected the appointment.";
+"service_status_message_text_501" = "Customer cancelled the order";
+"service_status_message_text_210" = "Vehicle reached at service center. Initial inspection in progress";
+"service_status_message_text_225" = "Vehicle services started by merchant.";
+"service_status_message_text_230" = "There are some addtional issues found in vehicle. ";
+"service_status_message_text_220" = "Order and total bill amount is revised and agreed upon.";
+"service_status_message_text_221" = "Customer rejected the order details updated by merchant.";
+"service_status_message_text_235" = "All the vehicle services are completed";
+"service_status_message_text_240" = "Vehicle is all set to go";
+"service_status_message_text_245" = "Vehicle is successfully delivered to customer";
+"service_status_message_text_250" = "Merchant has created the service notes for next service";
+"service_status_message_text_260" = "The order is completed and closed.";
+
+"service_status_message_text_301" = "The total amount is blocked on provided card. ";
+"service_status_message_text_305" = "Some issue in blocking paymnet on card.";
+
+"service_status_message_text_401" = "As request, drop off is assigned. See details.";
+"service_status_message_text_405" = "As requested, pickup is assigned. See details.";
+"service_status_message_text_320" = "Final blocked payment processed successfuly";
+"service_status_message_text_325" = "Final blocked payment process failed";
+
+//Service Status
+"service_status_decline_order_text" = "Decline Order";
+"service_status_accept_order_text" = "Accept Order";
+"service_status_edit_order_text" = "Edit Order";
+"service_status_update_order_text" = "Update Order";
+"service_status_update_status_text" = "Update Status";
+"service_status_cancel_order_text" = "Cancel Order";
+
+"service_status_user_canceled_order_text" = "Customer cancelled the order";
+
+//Dashboard
+"dashboard_screen_title_text" = "Revenue";
+"dashboard_screen_earning_this_month_title_text" = "Earning in this month";
+"dashboard_screen_your_balance_text" = "Your Balance";
+"dashboard_screen_total_earning_title_text" = "Total Earning";
+"dashboard_screen_from_title_text" = "From";
+"dashboard_screen_to_title_text" = "To";
+"dashboard_screen_revenue_title_text" = "Revenue";
+"dashboard_screen_get_btn_title_text" = "Get";
+
+//Offers
+"offers_screen_title_text" = "Offers";
+"offers_screen_offer_id_text" = "Offer ID: ";
+"offers_screen_offer_code_text" = "Offer Code: ";
+"offers_screen_offer_status_text" = "Status: ";
+"offers_screen_offer_type_text" = "Offer Type: ";
+"offers_screen_cancel_button_text" = "Cancel";
+"offers_screen_edit_button_text" = "Edit";
+
+"offers_screen_no_myoffer_text" = "There are no offers added by you";
+"offers_screen_no_awaiting_offer_text" = "There are no awaiting offers";
+
+"offers_add_screen_title_text" = "Add Offers";
+"offers_add_update_screen_title_text" = "Update Offer";
+"offers_add_offer_title_title_text" = "Offer:";
+"offers_add_offer_percent_off_text" = "Percent Off";
+"offers_add_flat_off_text" = "Flat Off";
+"offers_add_offer_type_title_text" = "Offer Type:";
+"offers_add_offer_type_general_text" = "General";
+"offers_add_offer_type_customer_text" = "Customer";
+
+"offers_add_offer_amt_title_text" = "Offer Amount";
+"offers_add_offer_percent_title_text" = "Offer Percent";
+"offers_add_offer_code_title_text" = "Offer Code";
+"offers_add_offer_generate_title_text" = "Generate";
+"offers_add_start_date_title_text" = "Start Date";
+"offers_add_end_date_title_text" = "End Date";
+"offers_add_offer_name_title_text" = "Offer Name";
+"offers_add_offer_desc_title_text" = "Offer Description";
+"offers_add_offer_button_title_text" = "Add Offer";
+"offers_update_offer_button_title_text" = "Update Offer";
+
+//Team Member
+"team_member_screen_title_text" = "Team Members";
+"team_member_list_id_text" = "ID: ";
+"team_member_list_contact_text" = "Contact: ";
+"team_member_list_verified_text" = "Verified by Motrss";
+
+//Add Team Member
+"add_team_member_screen_title_text" = "Team Member Detail";
+"add_team_member_full_name_title_text" = "Full Name";
+"add_team_member_email_title_text" = "Email";
+"add_team_member_mob_no_title_text" = "Mobile Number";
+"add_team_member_gender_title_text" = "Gender";
+"add_team_member_gender_male_title_text" = "Male";
+"add_team_member_gender_female_title_text" = "Female";
+"add_team_member_gender_other_title_text" = "Other";
+"add_team_member_dl_detail_title_text" = "Driving License Details*";
+"add_team_member_dl_number_title_text" = "Driving License Number";
+"add_team_member_exp_date_title_text" = "Expiry Date";
+"add_team_member_issue_state_title_text" = "Issue State";
+"add_team_member_upload_dl_photo_title_text" = "Upload Driving License Photo";
+"add_team_member_profile_image_title_text" = "Profile Image";
+"add_team_member_add_btn_title_text" = "Add";
+"add_team_member_update_btn_title_text" = "Update";
+
+//Calendar
+"calendar_screen_title_text" = "Calendar";
+"calendar_screen_shop_closed_title_text" = "Shop Closed";
+"calendar_screen_capacity_title_text" = "Capacity per hour";
+"calendar_screen_update_title_text" = "Update";
+"calendar_screen_timeslot_text1" = "10-11 AM";
+"calendar_screen_timeslot_text2" = "11-12 AM";
+"calendar_screen_timeslot_text3" = "12-01 PM";
+"calendar_screen_timeslot_text4" = "01-02 PM";
+"calendar_screen_timeslot_text5" = "02-03 PM";
+"calendar_screen_timeslot_text6" = "03-04 PM";
+"calendar_screen_timeslot_text7" = "04-05 PM";
+"calendar_screen_timeslot_text8" = "05-06 PM";
+"calendar_update_timeslot_title_text" = "Update Timeslot";
+
+//Profile
+"profile_screen_title_text" = "Profile";
+
+//Rating And Review
+"review_screen_title_text" = "Review & Ratings";
+"review_screen_no_reviews_text" = "No reviews available. There are no completed orders";
+"review_screen_order_id_text" = "Order Id: ";
+
+//Profile
+"profile_resend_verification_email_text" = "Resend Verification Link";
+"profile_edit_text" = "Edit";
+"edit_profile_screen_title_text" = "Edit My Account";
+"edit_profile_name_title_text" = "Name";
+"edit_profile_shop_name_title_text" = "Shop Name";
+"edit_profile_email_title_text" = "Email";
+"edit_profile_mobile_title_text" = "Mobile No.";
+"edit_profile_login_id_title_text" = "Login Id";
+"edit_profile_change_title_text" = "Change";
+"edit_profile_change_password_title_text" = "Change Password";
+"edit_profile_save_btn_title_text" = "Save";
+"edit_profile_back_alert_text" = "Do you want to exit?";
+"edit_profile_upload_image_title_text" = "Upload Shop Image";
+
+"change_pwd_title_text" = "Change Password";
+"change_pwd_submit_button_text" = "Submit";
+"change_pwd_old_pwd_text" = "Old Password";
+"change_pwd_new_pwd_text" = "New Password";
+"change_pwd_confirm_pwd_text" = "Confirm Password";
+
+//Select Service
+"select_service_title_text" = "Select Service";
+"select_service_select_category_text" = "Select Category";
+"select_service_update_price_alert_text" = "Do you want to update the price";
+
+"select_service_package_desc_text" = "These services are included in this package";
+"select_service_avg_ptice_text" = "Avg. Price";
+"select_service_add_service_text" = "Add Services to Cart";
+"select_service_empty_cart_error_text" = "Please add service to the cart";
+"select_service_start_slert_text" = "You can book appointment upto 4 days in advance and choose prefered date-time for the selected merchant going forward.\nDo you want to continue?";
+
+"select_service_select_category_title_text" = "Select Category";
+"select_service_product_price_updated_title_text" = "Product price updated, awaiting approval.";
+"select_service_product_price_zero_alert_text" = "Please enter valid price";
+
+//Alerts
+"login_email_validation_error_text" = "Please enter valid email.";
+"login_password_validation_error_text" = "Password should be minimum 4 and maximum 15 characters";
+"login_email_passord_error_text" = "Please enter valid email or password.";
+"login_mobile_passord_error_text" = "Please enter valid mobile or password.";
+"login_server_error_text" = "Unable to login. Please try again!";
+"login_verify_mobile_number_toast_text" = "Please verify your mobile number.";
+"login_verify_email_toast_text" = "Please verify your Email";
+"login_verify_mobile_toast_text" = "Please verify your Mobile Number";
+"login_verify_email_and_mobile_toast_text" = "Please verify your Email and Mobile Number";
+"login_email_password_blank_error_text" = "Please enter email and password";
+"login_mobile_pin_blank_error_text" = "Please enter mobile number and pin";
+"login_mobile_invalid_error_text" = "Please enter valid mobile number";
+"login_mobile_pin_invalid_error_text" = "Mobile pin should be 6 digit";
+"login_email_blank_error_text" = "Please enter email";
+"login_mobile_number_blank_error_text" = "Please enter mobile number";
+"login_mobile_number_not_exist_error_text" = "Mobile number is not registered";
+"login_otp_will_send_alert_text" = "An OTP will be sent on this number - ";
+
+"forgot_pwd_password_not_match_err_text" = "Set password and confirm password doesn't match";
+"forgot_pwd_pwd_update_success_text" = "Password successfully updated!";
+"forgot_pwd_password_length_err_text" = "Old password, new password and confirm password should be minimum 4 and maximum 15 characters.";
+"forgot_pwd_email_sent_text" = "Temporary password sent to your email id. Please use it for login";
+"security_text_validation_error_text" = "Security answer should be Minimum 3 and maximum 15 characters";
+"forgot_pwd_email_sent_alert_text" = "Temp password will be sent on - ";
+"order_status_empty_order_status_alert_text" = "Please select the order status";
+"order_reason_empty_order_status_alert_text" = "Please select order decline reason";
+
+"offers_cancel_confirmation_alert_text" = "Do you want to cancel this offer?";
+"offers_add_offer_start_date_empty_alert_text" = "Please select start date";
+"offers_add_empty_offer_amt_alert_text" = "Please add offer amount";
+"offers_add_empty_offer_code_alert_text" = "Please add offer code";
+"offers_add_empty_start_date_alert_text" = "Please add start date";
+"offers_add_empty_end_date_alert_text" = "Please add end date";
+"offers_add_empty_offer_name_alert_text" = "Offer name should be minimum 2 characters";
+"offers_add_empty_offer_desc_alert_text" = "Please add offer description";
+"offers_add_empty_offer_percent_alert_text" = "Please add offer percent";
+"offers_add_offer_added_alert_text" = "Offer successfully added";
+"offers_add_offer_updated_alert_text" = "Offer successfully updated";
+
+"change_pwd_password_not_match_err_text" = "New password and confirm password doesn't match";
+"change_pwd_password_length_err_text" = "New password and confirm password should be minimum 6 characters.";
+"change_pwd_password_empty_field_err_text" = "Please enter old, new and confirm password";
+"edit_profile_empty_name_err_text" = "Please enter your name";
+"edit_profile_empty_shop_name_err_text" = "Please enter shop name";
+"edit_profile_empty_email_err_text" = "Please enter email id";
+"edit_profile_empty_mobile_err_text" = "Please enter mobile number";
+"edit_profile_mobile_not_verified_alert_text" = "Mobile number is not verified";
+"edit_profile_success_alert_text" = "Profile updated successfully";
+"edit_profile_password_length_err_text" = "New password and confirm password should be minimum 4 and maximum 15 characters.";
+"edit_profile_profile_image_upload_fail_text" = "Unable to upload profile image. Please try after sometime";
+
+"change_pwd_old_password_invalid_err_text" = "Old password should be minimum 4 and maximum 15 characters.";
+
+"dashboard_from_date_to_date_empty_alert_text" = "Please select from date and to date";
+"dashboard_add_offer_from_date_empty_alert_text" = "Please select from date";
+"team_member_licence_photo_empty_error_text" = "Please add license image";
+"team_member_added_alert_text" = "Team member added. Awaiting approval.";
+"team_member_updated_alert_text" = "Team member successfully updated";
+"team_member_name_empty_alert_text" = "Please add full name";
+"register_name_validation_error_text" = "Name should be minimum 2 and maximum 50 characters";
+"register_name_spaces_validation_error_text" = "Name should not contain more than 4 spaces";
+"register_mobile_validation_error_text" = "Please enter valid mobile number";
+"add_vehicle_licence_number_invalid_error_text" = "Please add valid licence number";
+"back_button_alert_text" = "Do you want to exit?";
+"calendar_timeslot_updated_alert_text" = "Timeslot successfully updated";
+
+"edit_profile_empty_name_err_text" = "Please enter your name";
+"edit_profile_empty_email_err_text" = "Please enter email id";
+"edit_profile_empty_mobile_err_text" = "Please enter mobile number";
+"edit_profile_success_alert_text" = "Profile updated successfully";
+"edit_profile_password_length_err_text" = "New password and confirm password should be minimum 4 and maximum 15 characters.";
+"edit_profile_profile_image_upload_fail_text" = "Unable to upload profile image. Please try after sometime";
+"order_accept_empty_timeslot_alert_text" = "Please select the appointment time";
+"profile_verification_email_sent_alert_text" = "Verification email sent on your registered email address";
+"my_account_resend_email_verification_alert_text" = "A verification link will be sent on - ";
+
+

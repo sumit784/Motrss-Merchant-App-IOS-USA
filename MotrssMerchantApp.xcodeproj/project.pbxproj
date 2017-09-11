@@ -1,0 +1,1314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CA6A233F0E5CA3E5131F581 /* Pods_MotrssMerchantApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143FABEAF43458BA9ABC9EE3 /* Pods_MotrssMerchantApp.framework */; };
+		9B13D1FE1EFE57F000E76414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D12F1EFE57F000E76414 /* AppDelegate.swift */; };
+		9B13D1FF1EFE57F000E76414 /* MTConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1311EFE57F000E76414 /* MTConstant.swift */; };
+		9B13D2001EFE57F000E76414 /* MTEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1321EFE57F000E76414 /* MTEnums.swift */; };
+		9B13D2041EFE57F000E76414 /* MTBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1391EFE57F000E76414 /* MTBaseViewController.swift */; };
+		9B13D2051EFE57F000E76414 /* MTLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D13B1EFE57F000E76414 /* MTLoginViewController.swift */; };
+		9B13D2081EFE57F000E76414 /* MTHomeViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D13F1EFE57F000E76414 /* MTHomeViewControler.swift */; };
+		9B13D2091EFE57F000E76414 /* MTMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1401EFE57F000E76414 /* MTMainViewController.swift */; };
+		9B13D20A1EFE57F000E76414 /* MTSideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1411EFE57F000E76414 /* MTSideMenuController.swift */; };
+		9B13D2291EFE57F000E76414 /* MTBookingServiceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1661EFE57F000E76414 /* MTBookingServiceDataModel.swift */; };
+		9B13D22B1EFE57F000E76414 /* MTDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1691EFE57F000E76414 /* MTDataModel.swift */; };
+		9B13D22C1EFE57F000E76414 /* MTNetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D16C1EFE57F000E76414 /* MTNetworkConfig.swift */; };
+		9B13D22D1EFE57F000E76414 /* MTRechabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D16E1EFE57F000E76414 /* MTRechabilityManager.swift */; };
+		9B13D22F1EFE57F000E76414 /* MTBaseServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1711EFE57F000E76414 /* MTBaseServiceManager.swift */; };
+		9B13D2311EFE57F000E76414 /* MTProfileServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1731EFE57F000E76414 /* MTProfileServiceManager.swift */; };
+		9B13D2341EFE57F000E76414 /* MTCommonUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1791EFE57F000E76414 /* MTCommonUtils.swift */; };
+		9B13D2351EFE57F000E76414 /* MTExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D17A1EFE57F000E76414 /* MTExtensions.swift */; };
+		9B13D2361EFE57F000E76414 /* MTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D17B1EFE57F000E76414 /* MTLogger.swift */; };
+		9B13D2391EFE57F000E76414 /* libTestFairy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B13D1831EFE57F000E76414 /* libTestFairy.a */; };
+		9B13D23A1EFE57F000E76414 /* upload-dsym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1851EFE57F000E76414 /* upload-dsym.sh */; };
+		9B13D23B1EFE57F000E76414 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1861EFE57F000E76414 /* Info.plist */; };
+		9B13D23C1EFE57F000E76414 /* MavenPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1891EFE57F000E76414 /* MavenPro-Black.ttf */; };
+		9B13D23D1EFE57F000E76414 /* MavenPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D18A1EFE57F000E76414 /* MavenPro-Bold.ttf */; };
+		9B13D23E1EFE57F000E76414 /* MavenPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D18B1EFE57F000E76414 /* MavenPro-Medium.ttf */; };
+		9B13D23F1EFE57F000E76414 /* MavenPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D18C1EFE57F000E76414 /* MavenPro-Regular.ttf */; };
+		9B13D2401EFE57F000E76414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D18E1EFE57F000E76414 /* Assets.xcassets */; };
+		9B13D2421EFE57F000E76414 /* ImageAssests.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1901EFE57F000E76414 /* ImageAssests.xcassets */; };
+		9B13D2491EFE57F000E76414 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D19A1EFE57F000E76414 /* Localizable.strings */; };
+		9B13D24E1EFE57F000E76414 /* MTAppRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1A41EFE57F000E76414 /* MTAppRatingView.swift */; };
+		9B13D24F1EFE57F000E76414 /* MTAppRatingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1A51EFE57F000E76414 /* MTAppRatingView.xib */; };
+		9B13D2561EFE57F000E76414 /* MTResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1AE1EFE57F000E76414 /* MTResetPasswordView.swift */; };
+		9B13D2571EFE57F000E76414 /* MTResetPasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1AF1EFE57F000E76414 /* MTResetPasswordView.xib */; };
+		9B13D25A1EFE57F000E76414 /* MTResetPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1B31EFE57F000E76414 /* MTResetPinView.swift */; };
+		9B13D25B1EFE57F000E76414 /* MTResetPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1B41EFE57F000E76414 /* MTResetPinView.xib */; };
+		9B13D25C1EFE57F000E76414 /* MTVerifyOTPPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1B51EFE57F000E76414 /* MTVerifyOTPPinView.swift */; };
+		9B13D25D1EFE57F000E76414 /* MTVerifyOTPPinView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1B61EFE57F000E76414 /* MTVerifyOTPPinView.xib */; };
+		9B13D26A1EFE57F000E76414 /* MTPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1C81EFE57F000E76414 /* MTPickerView.swift */; };
+		9B13D26B1EFE57F000E76414 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1C91EFE57F000E76414 /* Picker.swift */; };
+		9B13D26C1EFE57F000E76414 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1CA1EFE57F000E76414 /* PickerView.swift */; };
+		9B13D26D1EFE57F000E76414 /* SelectionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1CB1EFE57F000E76414 /* SelectionTextField.swift */; };
+		9B13D26E1EFE57F000E76414 /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1CC1EFE57F000E76414 /* ToolBarView.swift */; };
+		9B13D26F1EFE57F000E76414 /* MTProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1CE1EFE57F000E76414 /* MTProgressIndicator.swift */; };
+		9B13D2701EFE57F000E76414 /* MTProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1CF1EFE57F000E76414 /* MTProgressView.swift */; };
+		9B13D2851EFE57F000E76414 /* MTCollapsibleTableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1ED1EFE57F000E76414 /* MTCollapsibleTableViewHeader.swift */; };
+		9B13D2861EFE57F000E76414 /* MTSideMenuTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B13D1EE1EFE57F000E76414 /* MTSideMenuTableView.swift */; };
+		9B13D2871EFE57F000E76414 /* MTSideMenuTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1EF1EFE57F000E76414 /* MTSideMenuTableView.xib */; };
+		9B13D28A1EFE57F000E76414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1F41EFE57F000E76414 /* LaunchScreen.storyboard */; };
+		9B13D28B1EFE57F000E76414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B13D1F61EFE57F000E76414 /* Main.storyboard */; };
+		9B3C11931F365ECF00720153 /* MTOrderDeclineSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C118F1F365ECF00720153 /* MTOrderDeclineSelectionView.swift */; };
+		9B3C11941F365ECF00720153 /* MTOrderDeclineSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C11901F365ECF00720153 /* MTOrderDeclineSelectionView.xib */; };
+		9B3C11951F365ECF00720153 /* MTOrderDeclineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C11911F365ECF00720153 /* MTOrderDeclineTableViewCell.swift */; };
+		9B3C11961F365ECF00720153 /* MTOrderDeclineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C11921F365ECF00720153 /* MTOrderDeclineTableViewCell.xib */; };
+		9B448C3D1EB741D900DF3AC0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B448C3C1EB741D900DF3AC0 /* StoreKit.framework */; };
+		9B448C3F1EB741DF00DF3AC0 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B448C3E1EB741DF00DF3AC0 /* AddressBook.framework */; };
+		9B47DDC01F0359D20015FA03 /* MTOrderDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47DDBD1F0359D20015FA03 /* MTOrderDetailsViewController.swift */; };
+		9B47DDC11F0359D20015FA03 /* MTOrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47DDBE1F0359D20015FA03 /* MTOrderListViewController.swift */; };
+		9B47DDC61F035E300015FA03 /* MTMyOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47DDC41F035E300015FA03 /* MTMyOrdersTableViewCell.swift */; };
+		9B47DDC71F035E300015FA03 /* MTMyOrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B47DDC51F035E300015FA03 /* MTMyOrdersTableViewCell.xib */; };
+		9B47DDCB1F035F3A0015FA03 /* MTReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B47DDC91F035F3A0015FA03 /* MTReceiptTableViewCell.swift */; };
+		9B47DDCC1F035F3A0015FA03 /* MTReceiptTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B47DDCA1F035F3A0015FA03 /* MTReceiptTableViewCell.xib */; };
+		9B5DA5151F0531240038C281 /* MTUpdateOrderStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DA5141F0531240038C281 /* MTUpdateOrderStatusViewController.swift */; };
+		9B5DA5191F053E580038C281 /* MTOrderStatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DA5171F053E580038C281 /* MTOrderStatusTableViewCell.swift */; };
+		9B5DA51A1F053E580038C281 /* MTOrderStatusTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5DA5181F053E580038C281 /* MTOrderStatusTableViewCell.xib */; };
+		9B7A45C01F2C359800CD88DB /* MTTeamMemberListViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A45BE1F2C359800CD88DB /* MTTeamMemberListViewControler.swift */; };
+		9B7A45C11F2C359800CD88DB /* MTTeamMemberViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A45BF1F2C359800CD88DB /* MTTeamMemberViewControler.swift */; };
+		9B7A45C51F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A45C31F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.swift */; };
+		9B7A45C61F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B7A45C41F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.xib */; };
+		9B7A45C81F2C66F400CD88DB /* MTTeamMemberDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A45C71F2C66F400CD88DB /* MTTeamMemberDetailViewController.swift */; };
+		9B7A45CA1F2D0DDC00CD88DB /* MTTeamMemberServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7A45C91F2D0DDC00CD88DB /* MTTeamMemberServiceManager.swift */; };
+		9B8326141E9E23DE007D30ED /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8326131E9E23DE007D30ED /* CoreMedia.framework */; };
+		9B8326161E9E23E7007D30ED /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8326151E9E23E7007D30ED /* CoreMotion.framework */; };
+		9B8326181E9E23F0007D30ED /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8326171E9E23F0007D30ED /* AVFoundation.framework */; };
+		9B83261A1E9E23F8007D30ED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B8326191E9E23F8007D30ED /* SystemConfiguration.framework */; };
+		9B83261C1E9E2402007D30ED /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B83261B1E9E2402007D30ED /* OpenGLES.framework */; };
+		9BC621E01F47CC8100A450F4 /* CategoryAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BC621DF1F47CC8100A450F4 /* CategoryAssets.xcassets */; };
+		9BC739F41F0506DC00D43C72 /* MTOrderServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC739F31F0506DC00D43C72 /* MTOrderServiceManager.swift */; };
+		9BCF32AB1F2DAAC700D5EFC9 /* MTCalendarViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCF32AA1F2DAAC700D5EFC9 /* MTCalendarViewControler.swift */; };
+		9BD566CC1F0D0ABA00968CBE /* MTOrderBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD566CB1F0D0ABA00968CBE /* MTOrderBaseViewController.swift */; };
+		9BDDD9721F408845005F3055 /* MTMerchantReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDD9701F408845005F3055 /* MTMerchantReviewsTableViewCell.swift */; };
+		9BDDD9731F408845005F3055 /* MTMerchantReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDD9711F408845005F3055 /* MTMerchantReviewsTableViewCell.xib */; };
+		9BE3EC1E1F31679900487C7A /* MTProfileViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE3EC1D1F31679900487C7A /* MTProfileViewControler.swift */; };
+		9BE464761F35B50F00244FD2 /* MTTimeslotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE464741F35B50F00244FD2 /* MTTimeslotView.swift */; };
+		9BE464771F35B50F00244FD2 /* MTTimeslotView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE464751F35B50F00244FD2 /* MTTimeslotView.xib */; };
+		9BE464791F35D8DF00244FD2 /* MTReviewAndRatingViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE464781F35D8DF00244FD2 /* MTReviewAndRatingViewControler.swift */; };
+		9BE4647D1F360F0F00244FD2 /* MTChangePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4647B1F360F0F00244FD2 /* MTChangePasswordView.swift */; };
+		9BE4647E1F360F0F00244FD2 /* MTChangePasswordView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4647C1F360F0F00244FD2 /* MTChangePasswordView.xib */; };
+		9BE4A51C1F23223900D361C6 /* MTDashboardViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A51B1F23223900D361C6 /* MTDashboardViewControler.swift */; };
+		9BE4A51E1F23256800D361C6 /* MTDashboardServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A51D1F23256800D361C6 /* MTDashboardServiceManager.swift */; };
+		9BE4A5201F232E4500D361C6 /* MTOfferViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A51F1F232E4500D361C6 /* MTOfferViewControler.swift */; };
+		9BE4A5221F232E9C00D361C6 /* MTOfferServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A5211F232E9C00D361C6 /* MTOfferServiceManager.swift */; };
+		9BE4A5241F2386FC00D361C6 /* MTOfferListViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A5231F2386FC00D361C6 /* MTOfferListViewControler.swift */; };
+		9BE4A5281F238CF200D361C6 /* MTOffersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A5261F238CF200D361C6 /* MTOffersTableViewCell.swift */; };
+		9BE4A5291F238CF200D361C6 /* MTOffersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE4A5271F238CF200D361C6 /* MTOffersTableViewCell.xib */; };
+		9BE4A52B1F239EC600D361C6 /* MTOfferDetailViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE4A52A1F239EC600D361C6 /* MTOfferDetailViewControler.swift */; };
+		9BE50D151F56E62C0077BEDA /* MTMerchantReviewPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE50D131F56E62C0077BEDA /* MTMerchantReviewPopupView.swift */; };
+		9BE50D161F56E62C0077BEDA /* MTMerchantReviewPopupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BE50D141F56E62C0077BEDA /* MTMerchantReviewPopupView.xib */; };
+		9BF9F0D01F475EFA00DEBB48 /* MTSelectServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F0CE1F475EFA00DEBB48 /* MTSelectServiceListViewController.swift */; };
+		9BF9F0D11F475EFA00DEBB48 /* MTSelectServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F0CF1F475EFA00DEBB48 /* MTSelectServiceViewController.swift */; };
+		9BF9F0D31F47628000DEBB48 /* MTAWSS3ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F0D21F47628000DEBB48 /* MTAWSS3ServiceManager.swift */; };
+		9BF9F0D91F47635700DEBB48 /* MTServicePackageDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F0D51F47635700DEBB48 /* MTServicePackageDetailsView.swift */; };
+		9BF9F0DA1F47635700DEBB48 /* MTServicePackageDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9F0D61F47635700DEBB48 /* MTServicePackageDetailsView.xib */; };
+		9BF9F0DB1F47635700DEBB48 /* MTServicePackageDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F0D71F47635700DEBB48 /* MTServicePackageDetailTableViewCell.swift */; };
+		9BF9F0DC1F47635700DEBB48 /* MTServicePackageDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9F0D81F47635700DEBB48 /* MTServicePackageDetailTableViewCell.xib */; };
+		9BF9F0E01F47647500DEBB48 /* MTServiceListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9F0DE1F47647500DEBB48 /* MTServiceListTableViewCell.swift */; };
+		9BF9F0E11F47647500DEBB48 /* MTServiceListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BF9F0DF1F47647500DEBB48 /* MTServiceListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		082810E130C7D3A3C47F7020 /* Pods-MotrssUserApp.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotrssUserApp.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-MotrssUserApp/Pods-MotrssUserApp.distribution.xcconfig"; sourceTree = "<group>"; };
+		143FABEAF43458BA9ABC9EE3 /* Pods_MotrssMerchantApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotrssMerchantApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26B908F49B8367E6FBB2E8B5 /* Pods-MotrssMerchantApp.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotrssMerchantApp.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-MotrssMerchantApp/Pods-MotrssMerchantApp.distribution.xcconfig"; sourceTree = "<group>"; };
+		2D9055B6FC2E05D9167FD8B6 /* Pods-MotrssUserApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotrssUserApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotrssUserApp/Pods-MotrssUserApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9808A299E3D378989F1EB062 /* Pods-MotrssMerchantApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotrssMerchantApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotrssMerchantApp/Pods-MotrssMerchantApp.release.xcconfig"; sourceTree = "<group>"; };
+		9B13D12F1EFE57F000E76414 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B13D1311EFE57F000E76414 /* MTConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTConstant.swift; sourceTree = "<group>"; };
+		9B13D1321EFE57F000E76414 /* MTEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTEnums.swift; sourceTree = "<group>"; };
+		9B13D1391EFE57F000E76414 /* MTBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTBaseViewController.swift; sourceTree = "<group>"; };
+		9B13D13B1EFE57F000E76414 /* MTLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTLoginViewController.swift; sourceTree = "<group>"; };
+		9B13D13F1EFE57F000E76414 /* MTHomeViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTHomeViewControler.swift; sourceTree = "<group>"; };
+		9B13D1401EFE57F000E76414 /* MTMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMainViewController.swift; sourceTree = "<group>"; };
+		9B13D1411EFE57F000E76414 /* MTSideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTSideMenuController.swift; sourceTree = "<group>"; };
+		9B13D1661EFE57F000E76414 /* MTBookingServiceDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTBookingServiceDataModel.swift; sourceTree = "<group>"; };
+		9B13D1691EFE57F000E76414 /* MTDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTDataModel.swift; sourceTree = "<group>"; };
+		9B13D16C1EFE57F000E76414 /* MTNetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTNetworkConfig.swift; sourceTree = "<group>"; };
+		9B13D16E1EFE57F000E76414 /* MTRechabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTRechabilityManager.swift; sourceTree = "<group>"; };
+		9B13D1711EFE57F000E76414 /* MTBaseServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTBaseServiceManager.swift; sourceTree = "<group>"; };
+		9B13D1731EFE57F000E76414 /* MTProfileServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTProfileServiceManager.swift; sourceTree = "<group>"; };
+		9B13D1771EFE57F000E76414 /* Bridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridging.h; sourceTree = "<group>"; };
+		9B13D1791EFE57F000E76414 /* MTCommonUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCommonUtils.swift; sourceTree = "<group>"; };
+		9B13D17A1EFE57F000E76414 /* MTExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTExtensions.swift; sourceTree = "<group>"; };
+		9B13D17B1EFE57F000E76414 /* MTLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTLogger.swift; sourceTree = "<group>"; };
+		9B13D1831EFE57F000E76414 /* libTestFairy.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFairy.a; sourceTree = "<group>"; };
+		9B13D1841EFE57F000E76414 /* TestFairy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFairy.h; sourceTree = "<group>"; };
+		9B13D1851EFE57F000E76414 /* upload-dsym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-dsym.sh"; sourceTree = "<group>"; };
+		9B13D1861EFE57F000E76414 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B13D1891EFE57F000E76414 /* MavenPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Black.ttf"; sourceTree = "<group>"; };
+		9B13D18A1EFE57F000E76414 /* MavenPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Bold.ttf"; sourceTree = "<group>"; };
+		9B13D18B1EFE57F000E76414 /* MavenPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Medium.ttf"; sourceTree = "<group>"; };
+		9B13D18C1EFE57F000E76414 /* MavenPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MavenPro-Regular.ttf"; sourceTree = "<group>"; };
+		9B13D18E1EFE57F000E76414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B13D1901EFE57F000E76414 /* ImageAssests.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ImageAssests.xcassets; sourceTree = "<group>"; };
+		9B13D19B1EFE57F000E76414 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9B13D1A41EFE57F000E76414 /* MTAppRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAppRatingView.swift; sourceTree = "<group>"; };
+		9B13D1A51EFE57F000E76414 /* MTAppRatingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTAppRatingView.xib; sourceTree = "<group>"; };
+		9B13D1AE1EFE57F000E76414 /* MTResetPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTResetPasswordView.swift; sourceTree = "<group>"; };
+		9B13D1AF1EFE57F000E76414 /* MTResetPasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTResetPasswordView.xib; sourceTree = "<group>"; };
+		9B13D1B31EFE57F000E76414 /* MTResetPinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTResetPinView.swift; sourceTree = "<group>"; };
+		9B13D1B41EFE57F000E76414 /* MTResetPinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTResetPinView.xib; sourceTree = "<group>"; };
+		9B13D1B51EFE57F000E76414 /* MTVerifyOTPPinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTVerifyOTPPinView.swift; sourceTree = "<group>"; };
+		9B13D1B61EFE57F000E76414 /* MTVerifyOTPPinView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTVerifyOTPPinView.xib; sourceTree = "<group>"; };
+		9B13D1C81EFE57F000E76414 /* MTPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTPickerView.swift; sourceTree = "<group>"; };
+		9B13D1C91EFE57F000E76414 /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		9B13D1CA1EFE57F000E76414 /* PickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		9B13D1CB1EFE57F000E76414 /* SelectionTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionTextField.swift; sourceTree = "<group>"; };
+		9B13D1CC1EFE57F000E76414 /* ToolBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
+		9B13D1CE1EFE57F000E76414 /* MTProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTProgressIndicator.swift; sourceTree = "<group>"; };
+		9B13D1CF1EFE57F000E76414 /* MTProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTProgressView.swift; sourceTree = "<group>"; };
+		9B13D1ED1EFE57F000E76414 /* MTCollapsibleTableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCollapsibleTableViewHeader.swift; sourceTree = "<group>"; };
+		9B13D1EE1EFE57F000E76414 /* MTSideMenuTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTSideMenuTableView.swift; sourceTree = "<group>"; };
+		9B13D1EF1EFE57F000E76414 /* MTSideMenuTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTSideMenuTableView.xib; sourceTree = "<group>"; };
+		9B13D1F51EFE57F000E76414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B13D1F71EFE57F000E76414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B3C118F1F365ECF00720153 /* MTOrderDeclineSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderDeclineSelectionView.swift; sourceTree = "<group>"; };
+		9B3C11901F365ECF00720153 /* MTOrderDeclineSelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTOrderDeclineSelectionView.xib; sourceTree = "<group>"; };
+		9B3C11911F365ECF00720153 /* MTOrderDeclineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderDeclineTableViewCell.swift; sourceTree = "<group>"; };
+		9B3C11921F365ECF00720153 /* MTOrderDeclineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTOrderDeclineTableViewCell.xib; sourceTree = "<group>"; };
+		9B448C3C1EB741D900DF3AC0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9B448C3E1EB741DF00DF3AC0 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		9B47DDBD1F0359D20015FA03 /* MTOrderDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderDetailsViewController.swift; sourceTree = "<group>"; };
+		9B47DDBE1F0359D20015FA03 /* MTOrderListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderListViewController.swift; sourceTree = "<group>"; };
+		9B47DDC41F035E300015FA03 /* MTMyOrdersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMyOrdersTableViewCell.swift; sourceTree = "<group>"; };
+		9B47DDC51F035E300015FA03 /* MTMyOrdersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTMyOrdersTableViewCell.xib; sourceTree = "<group>"; };
+		9B47DDC91F035F3A0015FA03 /* MTReceiptTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTReceiptTableViewCell.swift; sourceTree = "<group>"; };
+		9B47DDCA1F035F3A0015FA03 /* MTReceiptTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTReceiptTableViewCell.xib; sourceTree = "<group>"; };
+		9B5DA5141F0531240038C281 /* MTUpdateOrderStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTUpdateOrderStatusViewController.swift; sourceTree = "<group>"; };
+		9B5DA5171F053E580038C281 /* MTOrderStatusTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderStatusTableViewCell.swift; sourceTree = "<group>"; };
+		9B5DA5181F053E580038C281 /* MTOrderStatusTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTOrderStatusTableViewCell.xib; sourceTree = "<group>"; };
+		9B656BFD1E9CDB1E0010ED2F /* Merchant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Merchant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B7A45BE1F2C359800CD88DB /* MTTeamMemberListViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTeamMemberListViewControler.swift; sourceTree = "<group>"; };
+		9B7A45BF1F2C359800CD88DB /* MTTeamMemberViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTeamMemberViewControler.swift; sourceTree = "<group>"; };
+		9B7A45C31F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTeamMemberTableViewCell.swift; sourceTree = "<group>"; };
+		9B7A45C41F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTTeamMemberTableViewCell.xib; sourceTree = "<group>"; };
+		9B7A45C71F2C66F400CD88DB /* MTTeamMemberDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTeamMemberDetailViewController.swift; sourceTree = "<group>"; };
+		9B7A45C91F2D0DDC00CD88DB /* MTTeamMemberServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTeamMemberServiceManager.swift; sourceTree = "<group>"; };
+		9B8326131E9E23DE007D30ED /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9B8326151E9E23E7007D30ED /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		9B8326171E9E23F0007D30ED /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9B8326191E9E23F8007D30ED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9B83261B1E9E2402007D30ED /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9BC621DF1F47CC8100A450F4 /* CategoryAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = CategoryAssets.xcassets; sourceTree = "<group>"; };
+		9BC739F31F0506DC00D43C72 /* MTOrderServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderServiceManager.swift; sourceTree = "<group>"; };
+		9BCF32AA1F2DAAC700D5EFC9 /* MTCalendarViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTCalendarViewControler.swift; sourceTree = "<group>"; };
+		9BD566CB1F0D0ABA00968CBE /* MTOrderBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOrderBaseViewController.swift; sourceTree = "<group>"; };
+		9BDDD9701F408845005F3055 /* MTMerchantReviewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMerchantReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		9BDDD9711F408845005F3055 /* MTMerchantReviewsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTMerchantReviewsTableViewCell.xib; sourceTree = "<group>"; };
+		9BE3EC1D1F31679900487C7A /* MTProfileViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTProfileViewControler.swift; sourceTree = "<group>"; };
+		9BE464741F35B50F00244FD2 /* MTTimeslotView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTTimeslotView.swift; sourceTree = "<group>"; };
+		9BE464751F35B50F00244FD2 /* MTTimeslotView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTTimeslotView.xib; sourceTree = "<group>"; };
+		9BE464781F35D8DF00244FD2 /* MTReviewAndRatingViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTReviewAndRatingViewControler.swift; sourceTree = "<group>"; };
+		9BE4647B1F360F0F00244FD2 /* MTChangePasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTChangePasswordView.swift; sourceTree = "<group>"; };
+		9BE4647C1F360F0F00244FD2 /* MTChangePasswordView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTChangePasswordView.xib; sourceTree = "<group>"; };
+		9BE4A51B1F23223900D361C6 /* MTDashboardViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTDashboardViewControler.swift; sourceTree = "<group>"; };
+		9BE4A51D1F23256800D361C6 /* MTDashboardServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTDashboardServiceManager.swift; sourceTree = "<group>"; };
+		9BE4A51F1F232E4500D361C6 /* MTOfferViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOfferViewControler.swift; sourceTree = "<group>"; };
+		9BE4A5211F232E9C00D361C6 /* MTOfferServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOfferServiceManager.swift; sourceTree = "<group>"; };
+		9BE4A5231F2386FC00D361C6 /* MTOfferListViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOfferListViewControler.swift; sourceTree = "<group>"; };
+		9BE4A5261F238CF200D361C6 /* MTOffersTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOffersTableViewCell.swift; sourceTree = "<group>"; };
+		9BE4A5271F238CF200D361C6 /* MTOffersTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTOffersTableViewCell.xib; sourceTree = "<group>"; };
+		9BE4A52A1F239EC600D361C6 /* MTOfferDetailViewControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTOfferDetailViewControler.swift; sourceTree = "<group>"; };
+		9BE50D131F56E62C0077BEDA /* MTMerchantReviewPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTMerchantReviewPopupView.swift; sourceTree = "<group>"; };
+		9BE50D141F56E62C0077BEDA /* MTMerchantReviewPopupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTMerchantReviewPopupView.xib; sourceTree = "<group>"; };
+		9BF9F0CE1F475EFA00DEBB48 /* MTSelectServiceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTSelectServiceListViewController.swift; sourceTree = "<group>"; };
+		9BF9F0CF1F475EFA00DEBB48 /* MTSelectServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTSelectServiceViewController.swift; sourceTree = "<group>"; };
+		9BF9F0D21F47628000DEBB48 /* MTAWSS3ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTAWSS3ServiceManager.swift; sourceTree = "<group>"; };
+		9BF9F0D51F47635700DEBB48 /* MTServicePackageDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTServicePackageDetailsView.swift; sourceTree = "<group>"; };
+		9BF9F0D61F47635700DEBB48 /* MTServicePackageDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTServicePackageDetailsView.xib; sourceTree = "<group>"; };
+		9BF9F0D71F47635700DEBB48 /* MTServicePackageDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTServicePackageDetailTableViewCell.swift; sourceTree = "<group>"; };
+		9BF9F0D81F47635700DEBB48 /* MTServicePackageDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTServicePackageDetailTableViewCell.xib; sourceTree = "<group>"; };
+		9BF9F0DE1F47647500DEBB48 /* MTServiceListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTServiceListTableViewCell.swift; sourceTree = "<group>"; };
+		9BF9F0DF1F47647500DEBB48 /* MTServiceListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTServiceListTableViewCell.xib; sourceTree = "<group>"; };
+		CC78C1BFE2235B2234F0E68D /* Pods-MotrssMerchantApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotrssMerchantApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MotrssMerchantApp/Pods-MotrssMerchantApp.debug.xcconfig"; sourceTree = "<group>"; };
+		FBF606E6C6657FE36792AF4E /* Pods-MotrssUserApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotrssUserApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MotrssUserApp/Pods-MotrssUserApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B656BFA1E9CDB1E0010ED2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B83261A1E9E23F8007D30ED /* SystemConfiguration.framework in Frameworks */,
+				9B13D2391EFE57F000E76414 /* libTestFairy.a in Frameworks */,
+				9B448C3F1EB741DF00DF3AC0 /* AddressBook.framework in Frameworks */,
+				9B448C3D1EB741D900DF3AC0 /* StoreKit.framework in Frameworks */,
+				9B83261C1E9E2402007D30ED /* OpenGLES.framework in Frameworks */,
+				9B8326181E9E23F0007D30ED /* AVFoundation.framework in Frameworks */,
+				9B8326161E9E23E7007D30ED /* CoreMotion.framework in Frameworks */,
+				9B8326141E9E23DE007D30ED /* CoreMedia.framework in Frameworks */,
+				3CA6A233F0E5CA3E5131F581 /* Pods_MotrssMerchantApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B13D12C1EFE57F000E76414 /* MotrssMerchantApp */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D12D1EFE57F000E76414 /* Classes */,
+				9B13D1861EFE57F000E76414 /* Info.plist */,
+				9B13D1871EFE57F000E76414 /* Resources */,
+				9B13D19C1EFE57F000E76414 /* View */,
+			);
+			path = MotrssMerchantApp;
+			sourceTree = "<group>";
+		};
+		9B13D12D1EFE57F000E76414 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D12E1EFE57F000E76414 /* AppDelegate */,
+				9B13D1301EFE57F000E76414 /* Constant */,
+				9B13D1331EFE57F000E76414 /* Controller */,
+				9B13D1641EFE57F000E76414 /* Model */,
+				9B13D16A1EFE57F000E76414 /* Network */,
+				9B13D1761EFE57F000E76414 /* Utils */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9B13D12E1EFE57F000E76414 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D12F1EFE57F000E76414 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9B13D1301EFE57F000E76414 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1311EFE57F000E76414 /* MTConstant.swift */,
+				9B13D1321EFE57F000E76414 /* MTEnums.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		9B13D1331EFE57F000E76414 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D13A1EFE57F000E76414 /* CRM */,
+				9B13D1381EFE57F000E76414 /* Base */,
+				9B13D13E1EFE57F000E76414 /* Home */,
+				9B47DDBC1F0359D20015FA03 /* Orders */,
+				9BE4A51A1F23223900D361C6 /* Other */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B13D1381EFE57F000E76414 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1391EFE57F000E76414 /* MTBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9B13D13A1EFE57F000E76414 /* CRM */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D13B1EFE57F000E76414 /* MTLoginViewController.swift */,
+			);
+			path = CRM;
+			sourceTree = "<group>";
+		};
+		9B13D13E1EFE57F000E76414 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D13F1EFE57F000E76414 /* MTHomeViewControler.swift */,
+				9B13D1401EFE57F000E76414 /* MTMainViewController.swift */,
+				9B13D1411EFE57F000E76414 /* MTSideMenuController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9B13D1641EFE57F000E76414 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1651EFE57F000E76414 /* DataModel */,
+				9B13D1681EFE57F000E76414 /* DBModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B13D1651EFE57F000E76414 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1661EFE57F000E76414 /* MTBookingServiceDataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9B13D1681EFE57F000E76414 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1691EFE57F000E76414 /* MTDataModel.swift */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		9B13D16A1EFE57F000E76414 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D16B1EFE57F000E76414 /* Config */,
+				9B13D16D1EFE57F000E76414 /* Rechability */,
+				9B13D16F1EFE57F000E76414 /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9B13D16B1EFE57F000E76414 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D16C1EFE57F000E76414 /* MTNetworkConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9B13D16D1EFE57F000E76414 /* Rechability */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D16E1EFE57F000E76414 /* MTRechabilityManager.swift */,
+			);
+			path = Rechability;
+			sourceTree = "<group>";
+		};
+		9B13D16F1EFE57F000E76414 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9F0D21F47628000DEBB48 /* MTAWSS3ServiceManager.swift */,
+				9B7A45C91F2D0DDC00CD88DB /* MTTeamMemberServiceManager.swift */,
+				9BE4A5211F232E9C00D361C6 /* MTOfferServiceManager.swift */,
+				9BE4A51D1F23256800D361C6 /* MTDashboardServiceManager.swift */,
+				9BC739F31F0506DC00D43C72 /* MTOrderServiceManager.swift */,
+				9B13D1711EFE57F000E76414 /* MTBaseServiceManager.swift */,
+				9B13D1731EFE57F000E76414 /* MTProfileServiceManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9B13D1761EFE57F000E76414 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1771EFE57F000E76414 /* Bridging.h */,
+				9B13D1781EFE57F000E76414 /* CommonUtils */,
+				9B13D17C1EFE57F000E76414 /* Lib */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9B13D1781EFE57F000E76414 /* CommonUtils */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1791EFE57F000E76414 /* MTCommonUtils.swift */,
+				9B13D17A1EFE57F000E76414 /* MTExtensions.swift */,
+				9B13D17B1EFE57F000E76414 /* MTLogger.swift */,
+			);
+			path = CommonUtils;
+			sourceTree = "<group>";
+		};
+		9B13D17C1EFE57F000E76414 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1821EFE57F000E76414 /* TestFairySDK-1.9.1 */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		9B13D1821EFE57F000E76414 /* TestFairySDK-1.9.1 */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1831EFE57F000E76414 /* libTestFairy.a */,
+				9B13D1841EFE57F000E76414 /* TestFairy.h */,
+				9B13D1851EFE57F000E76414 /* upload-dsym.sh */,
+			);
+			path = "TestFairySDK-1.9.1";
+			sourceTree = "<group>";
+		};
+		9B13D1871EFE57F000E76414 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1881EFE57F000E76414 /* Fonts */,
+				9B13D18D1EFE57F000E76414 /* Images */,
+				9B13D1981EFE57F000E76414 /* Localization */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9B13D1881EFE57F000E76414 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1891EFE57F000E76414 /* MavenPro-Black.ttf */,
+				9B13D18A1EFE57F000E76414 /* MavenPro-Bold.ttf */,
+				9B13D18B1EFE57F000E76414 /* MavenPro-Medium.ttf */,
+				9B13D18C1EFE57F000E76414 /* MavenPro-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9B13D18D1EFE57F000E76414 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D18E1EFE57F000E76414 /* Assets.xcassets */,
+				9B13D1901EFE57F000E76414 /* ImageAssests.xcassets */,
+				9BC621DF1F47CC8100A450F4 /* CategoryAssets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9B13D1981EFE57F000E76414 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1991EFE57F000E76414 /* EnglishLocalizable */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		9B13D1991EFE57F000E76414 /* EnglishLocalizable */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D19A1EFE57F000E76414 /* Localizable.strings */,
+			);
+			path = EnglishLocalizable;
+			sourceTree = "<group>";
+		};
+		9B13D19C1EFE57F000E76414 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BE50D121F56E62C0077BEDA /* MerchantReviewPopup */,
+				9BF9F0DD1F47647500DEBB48 /* ServiceListTableViewCell */,
+				9BF9F0D41F47635700DEBB48 /* ServicePackageDetailsView */,
+				9BDDD96F1F408845005F3055 /* MerchantReviews */,
+				9B3C118E1F365ECF00720153 /* OrderDeclineSelectionView */,
+				9BE4647A1F360F0F00244FD2 /* ChangePassword */,
+				9BE464731F35B50F00244FD2 /* TimeslotView */,
+				9B7A45C21F2C4E0E00CD88DB /* TeamMemberTableViewCell */,
+				9BE4A5251F238CF200D361C6 /* OffersTableViewCell */,
+				9B5DA5161F053E580038C281 /* OrderStatusTableViewCell */,
+				9B47DDC81F035F3A0015FA03 /* ReceiptTableViewCell */,
+				9B47DDC31F035E300015FA03 /* MyOrdersTableViewCell */,
+				9B13D1A31EFE57F000E76414 /* AppRatingView */,
+				9B13D1A91EFE57F000E76414 /* ForgotPassword */,
+				9B13D1B01EFE57F000E76414 /* ForgotPin */,
+				9B13D1C71EFE57F000E76414 /* PickerView */,
+				9B13D1CD1EFE57F000E76414 /* ProgressIndicator */,
+				9B13D1EC1EFE57F000E76414 /* SideMenuTableView */,
+				9B13D1F31EFE57F000E76414 /* Storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B13D1A31EFE57F000E76414 /* AppRatingView */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1A41EFE57F000E76414 /* MTAppRatingView.swift */,
+				9B13D1A51EFE57F000E76414 /* MTAppRatingView.xib */,
+			);
+			path = AppRatingView;
+			sourceTree = "<group>";
+		};
+		9B13D1A91EFE57F000E76414 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1AE1EFE57F000E76414 /* MTResetPasswordView.swift */,
+				9B13D1AF1EFE57F000E76414 /* MTResetPasswordView.xib */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		9B13D1B01EFE57F000E76414 /* ForgotPin */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1B31EFE57F000E76414 /* MTResetPinView.swift */,
+				9B13D1B41EFE57F000E76414 /* MTResetPinView.xib */,
+				9B13D1B51EFE57F000E76414 /* MTVerifyOTPPinView.swift */,
+				9B13D1B61EFE57F000E76414 /* MTVerifyOTPPinView.xib */,
+			);
+			path = ForgotPin;
+			sourceTree = "<group>";
+		};
+		9B13D1C71EFE57F000E76414 /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1C81EFE57F000E76414 /* MTPickerView.swift */,
+				9B13D1C91EFE57F000E76414 /* Picker.swift */,
+				9B13D1CA1EFE57F000E76414 /* PickerView.swift */,
+				9B13D1CB1EFE57F000E76414 /* SelectionTextField.swift */,
+				9B13D1CC1EFE57F000E76414 /* ToolBarView.swift */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		9B13D1CD1EFE57F000E76414 /* ProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1CE1EFE57F000E76414 /* MTProgressIndicator.swift */,
+				9B13D1CF1EFE57F000E76414 /* MTProgressView.swift */,
+			);
+			path = ProgressIndicator;
+			sourceTree = "<group>";
+		};
+		9B13D1EC1EFE57F000E76414 /* SideMenuTableView */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1ED1EFE57F000E76414 /* MTCollapsibleTableViewHeader.swift */,
+				9B13D1EE1EFE57F000E76414 /* MTSideMenuTableView.swift */,
+				9B13D1EF1EFE57F000E76414 /* MTSideMenuTableView.xib */,
+			);
+			path = SideMenuTableView;
+			sourceTree = "<group>";
+		};
+		9B13D1F31EFE57F000E76414 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				9B13D1F41EFE57F000E76414 /* LaunchScreen.storyboard */,
+				9B13D1F61EFE57F000E76414 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		9B3C118E1F365ECF00720153 /* OrderDeclineSelectionView */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C118F1F365ECF00720153 /* MTOrderDeclineSelectionView.swift */,
+				9B3C11901F365ECF00720153 /* MTOrderDeclineSelectionView.xib */,
+				9B3C11911F365ECF00720153 /* MTOrderDeclineTableViewCell.swift */,
+				9B3C11921F365ECF00720153 /* MTOrderDeclineTableViewCell.xib */,
+			);
+			path = OrderDeclineSelectionView;
+			sourceTree = "<group>";
+		};
+		9B47DDBC1F0359D20015FA03 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				9B5DA5141F0531240038C281 /* MTUpdateOrderStatusViewController.swift */,
+				9BD566CB1F0D0ABA00968CBE /* MTOrderBaseViewController.swift */,
+				9B47DDBD1F0359D20015FA03 /* MTOrderDetailsViewController.swift */,
+				9B47DDBE1F0359D20015FA03 /* MTOrderListViewController.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		9B47DDC31F035E300015FA03 /* MyOrdersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9B47DDC41F035E300015FA03 /* MTMyOrdersTableViewCell.swift */,
+				9B47DDC51F035E300015FA03 /* MTMyOrdersTableViewCell.xib */,
+			);
+			path = MyOrdersTableViewCell;
+			sourceTree = "<group>";
+		};
+		9B47DDC81F035F3A0015FA03 /* ReceiptTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9B47DDC91F035F3A0015FA03 /* MTReceiptTableViewCell.swift */,
+				9B47DDCA1F035F3A0015FA03 /* MTReceiptTableViewCell.xib */,
+			);
+			path = ReceiptTableViewCell;
+			sourceTree = "<group>";
+		};
+		9B5DA5161F053E580038C281 /* OrderStatusTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9B5DA5171F053E580038C281 /* MTOrderStatusTableViewCell.swift */,
+				9B5DA5181F053E580038C281 /* MTOrderStatusTableViewCell.xib */,
+			);
+			path = OrderStatusTableViewCell;
+			sourceTree = "<group>";
+		};
+		9B656BF41E9CDB1E0010ED2F = {
+			isa = PBXGroup;
+			children = (
+				9B13D12C1EFE57F000E76414 /* MotrssMerchantApp */,
+				9B656BFE1E9CDB1E0010ED2F /* Products */,
+				DB8E50AAD9819ADB11E90F57 /* Pods */,
+				CE9E35DCF2EE18DF34447E16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B656BFE1E9CDB1E0010ED2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B656BFD1E9CDB1E0010ED2F /* Merchant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B7A45C21F2C4E0E00CD88DB /* TeamMemberTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9B7A45C31F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.swift */,
+				9B7A45C41F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.xib */,
+			);
+			path = TeamMemberTableViewCell;
+			sourceTree = "<group>";
+		};
+		9BDDD96F1F408845005F3055 /* MerchantReviews */ = {
+			isa = PBXGroup;
+			children = (
+				9BDDD9701F408845005F3055 /* MTMerchantReviewsTableViewCell.swift */,
+				9BDDD9711F408845005F3055 /* MTMerchantReviewsTableViewCell.xib */,
+			);
+			path = MerchantReviews;
+			sourceTree = "<group>";
+		};
+		9BE464731F35B50F00244FD2 /* TimeslotView */ = {
+			isa = PBXGroup;
+			children = (
+				9BE464741F35B50F00244FD2 /* MTTimeslotView.swift */,
+				9BE464751F35B50F00244FD2 /* MTTimeslotView.xib */,
+			);
+			path = TimeslotView;
+			sourceTree = "<group>";
+		};
+		9BE4647A1F360F0F00244FD2 /* ChangePassword */ = {
+			isa = PBXGroup;
+			children = (
+				9BE4647B1F360F0F00244FD2 /* MTChangePasswordView.swift */,
+				9BE4647C1F360F0F00244FD2 /* MTChangePasswordView.xib */,
+			);
+			path = ChangePassword;
+			sourceTree = "<group>";
+		};
+		9BE4A51A1F23223900D361C6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9F0CE1F475EFA00DEBB48 /* MTSelectServiceListViewController.swift */,
+				9BF9F0CF1F475EFA00DEBB48 /* MTSelectServiceViewController.swift */,
+				9BE464781F35D8DF00244FD2 /* MTReviewAndRatingViewControler.swift */,
+				9BE3EC1D1F31679900487C7A /* MTProfileViewControler.swift */,
+				9BCF32AA1F2DAAC700D5EFC9 /* MTCalendarViewControler.swift */,
+				9B7A45C71F2C66F400CD88DB /* MTTeamMemberDetailViewController.swift */,
+				9B7A45BE1F2C359800CD88DB /* MTTeamMemberListViewControler.swift */,
+				9B7A45BF1F2C359800CD88DB /* MTTeamMemberViewControler.swift */,
+				9BE4A52A1F239EC600D361C6 /* MTOfferDetailViewControler.swift */,
+				9BE4A5231F2386FC00D361C6 /* MTOfferListViewControler.swift */,
+				9BE4A51F1F232E4500D361C6 /* MTOfferViewControler.swift */,
+				9BE4A51B1F23223900D361C6 /* MTDashboardViewControler.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9BE4A5251F238CF200D361C6 /* OffersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9BE4A5261F238CF200D361C6 /* MTOffersTableViewCell.swift */,
+				9BE4A5271F238CF200D361C6 /* MTOffersTableViewCell.xib */,
+			);
+			path = OffersTableViewCell;
+			sourceTree = "<group>";
+		};
+		9BE50D121F56E62C0077BEDA /* MerchantReviewPopup */ = {
+			isa = PBXGroup;
+			children = (
+				9BE50D131F56E62C0077BEDA /* MTMerchantReviewPopupView.swift */,
+				9BE50D141F56E62C0077BEDA /* MTMerchantReviewPopupView.xib */,
+			);
+			path = MerchantReviewPopup;
+			sourceTree = "<group>";
+		};
+		9BF9F0D41F47635700DEBB48 /* ServicePackageDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9F0D51F47635700DEBB48 /* MTServicePackageDetailsView.swift */,
+				9BF9F0D61F47635700DEBB48 /* MTServicePackageDetailsView.xib */,
+				9BF9F0D71F47635700DEBB48 /* MTServicePackageDetailTableViewCell.swift */,
+				9BF9F0D81F47635700DEBB48 /* MTServicePackageDetailTableViewCell.xib */,
+			);
+			path = ServicePackageDetailsView;
+			sourceTree = "<group>";
+		};
+		9BF9F0DD1F47647500DEBB48 /* ServiceListTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9F0DE1F47647500DEBB48 /* MTServiceListTableViewCell.swift */,
+				9BF9F0DF1F47647500DEBB48 /* MTServiceListTableViewCell.xib */,
+			);
+			path = ServiceListTableViewCell;
+			sourceTree = "<group>";
+		};
+		CE9E35DCF2EE18DF34447E16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B448C3E1EB741DF00DF3AC0 /* AddressBook.framework */,
+				9B448C3C1EB741D900DF3AC0 /* StoreKit.framework */,
+				9B83261B1E9E2402007D30ED /* OpenGLES.framework */,
+				9B8326191E9E23F8007D30ED /* SystemConfiguration.framework */,
+				9B8326171E9E23F0007D30ED /* AVFoundation.framework */,
+				9B8326151E9E23E7007D30ED /* CoreMotion.framework */,
+				9B8326131E9E23DE007D30ED /* CoreMedia.framework */,
+				143FABEAF43458BA9ABC9EE3 /* Pods_MotrssMerchantApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB8E50AAD9819ADB11E90F57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D9055B6FC2E05D9167FD8B6 /* Pods-MotrssUserApp.debug.xcconfig */,
+				FBF606E6C6657FE36792AF4E /* Pods-MotrssUserApp.release.xcconfig */,
+				082810E130C7D3A3C47F7020 /* Pods-MotrssUserApp.distribution.xcconfig */,
+				CC78C1BFE2235B2234F0E68D /* Pods-MotrssMerchantApp.debug.xcconfig */,
+				26B908F49B8367E6FBB2E8B5 /* Pods-MotrssMerchantApp.distribution.xcconfig */,
+				9808A299E3D378989F1EB062 /* Pods-MotrssMerchantApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B656BFC1E9CDB1E0010ED2F /* MotrssMerchantApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B656C0F1E9CDB1E0010ED2F /* Build configuration list for PBXNativeTarget "MotrssMerchantApp" */;
+			buildPhases = (
+				83A950CE86984CF30B0F7F8F /* [CP] Check Pods Manifest.lock */,
+				9B656BF91E9CDB1E0010ED2F /* Sources */,
+				9B656BFA1E9CDB1E0010ED2F /* Frameworks */,
+				9B656BFB1E9CDB1E0010ED2F /* Resources */,
+				297CEEE796B253493345E5B6 /* [CP] Embed Pods Frameworks */,
+				92BAF3E3578AE0D572B9E3E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotrssMerchantApp;
+			productName = MotrssUserApp;
+			productReference = 9B656BFD1E9CDB1E0010ED2F /* Merchant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B656BF51E9CDB1E0010ED2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = mobitronics;
+				TargetAttributes = {
+					9B656BFC1E9CDB1E0010ED2F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 57JKNE8E8S;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 9B656BF81E9CDB1E0010ED2F /* Build configuration list for PBXProject "MotrssMerchantApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B656BF41E9CDB1E0010ED2F;
+			productRefGroup = 9B656BFE1E9CDB1E0010ED2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B656BFC1E9CDB1E0010ED2F /* MotrssMerchantApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B656BFB1E9CDB1E0010ED2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BE4647E1F360F0F00244FD2 /* MTChangePasswordView.xib in Resources */,
+				9BF9F0DA1F47635700DEBB48 /* MTServicePackageDetailsView.xib in Resources */,
+				9B13D2491EFE57F000E76414 /* Localizable.strings in Resources */,
+				9BE464771F35B50F00244FD2 /* MTTimeslotView.xib in Resources */,
+				9BC621E01F47CC8100A450F4 /* CategoryAssets.xcassets in Resources */,
+				9B13D23F1EFE57F000E76414 /* MavenPro-Regular.ttf in Resources */,
+				9B3C11961F365ECF00720153 /* MTOrderDeclineTableViewCell.xib in Resources */,
+				9B47DDC71F035E300015FA03 /* MTMyOrdersTableViewCell.xib in Resources */,
+				9B13D23C1EFE57F000E76414 /* MavenPro-Black.ttf in Resources */,
+				9B13D23A1EFE57F000E76414 /* upload-dsym.sh in Resources */,
+				9B13D28A1EFE57F000E76414 /* LaunchScreen.storyboard in Resources */,
+				9B13D25D1EFE57F000E76414 /* MTVerifyOTPPinView.xib in Resources */,
+				9B7A45C61F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.xib in Resources */,
+				9B13D28B1EFE57F000E76414 /* Main.storyboard in Resources */,
+				9BDDD9731F408845005F3055 /* MTMerchantReviewsTableViewCell.xib in Resources */,
+				9B13D2571EFE57F000E76414 /* MTResetPasswordView.xib in Resources */,
+				9B3C11941F365ECF00720153 /* MTOrderDeclineSelectionView.xib in Resources */,
+				9BF9F0E11F47647500DEBB48 /* MTServiceListTableViewCell.xib in Resources */,
+				9B5DA51A1F053E580038C281 /* MTOrderStatusTableViewCell.xib in Resources */,
+				9B13D25B1EFE57F000E76414 /* MTResetPinView.xib in Resources */,
+				9BE50D161F56E62C0077BEDA /* MTMerchantReviewPopupView.xib in Resources */,
+				9B13D2421EFE57F000E76414 /* ImageAssests.xcassets in Resources */,
+				9B13D23D1EFE57F000E76414 /* MavenPro-Bold.ttf in Resources */,
+				9B13D23B1EFE57F000E76414 /* Info.plist in Resources */,
+				9BE4A5291F238CF200D361C6 /* MTOffersTableViewCell.xib in Resources */,
+				9BF9F0DC1F47635700DEBB48 /* MTServicePackageDetailTableViewCell.xib in Resources */,
+				9B13D2401EFE57F000E76414 /* Assets.xcassets in Resources */,
+				9B47DDCC1F035F3A0015FA03 /* MTReceiptTableViewCell.xib in Resources */,
+				9B13D23E1EFE57F000E76414 /* MavenPro-Medium.ttf in Resources */,
+				9B13D2871EFE57F000E76414 /* MTSideMenuTableView.xib in Resources */,
+				9B13D24F1EFE57F000E76414 /* MTAppRatingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297CEEE796B253493345E5B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MotrssMerchantApp/Pods-MotrssMerchantApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALCameraViewController/ALCameraViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenuController/SideMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStarRatingView/SwiftyStarRatingView.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALCameraViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStarRatingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotrssMerchantApp/Pods-MotrssMerchantApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83A950CE86984CF30B0F7F8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotrssMerchantApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92BAF3E3578AE0D572B9E3E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MotrssMerchantApp/Pods-MotrssMerchantApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B656BF91E9CDB1E0010ED2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B13D22D1EFE57F000E76414 /* MTRechabilityManager.swift in Sources */,
+				9BE4A51C1F23223900D361C6 /* MTDashboardViewControler.swift in Sources */,
+				9B5DA5151F0531240038C281 /* MTUpdateOrderStatusViewController.swift in Sources */,
+				9BE4A5281F238CF200D361C6 /* MTOffersTableViewCell.swift in Sources */,
+				9B13D26F1EFE57F000E76414 /* MTProgressIndicator.swift in Sources */,
+				9BE464791F35D8DF00244FD2 /* MTReviewAndRatingViewControler.swift in Sources */,
+				9BE4A5201F232E4500D361C6 /* MTOfferViewControler.swift in Sources */,
+				9B13D2001EFE57F000E76414 /* MTEnums.swift in Sources */,
+				9B13D20A1EFE57F000E76414 /* MTSideMenuController.swift in Sources */,
+				9B13D2341EFE57F000E76414 /* MTCommonUtils.swift in Sources */,
+				9BE4A5241F2386FC00D361C6 /* MTOfferListViewControler.swift in Sources */,
+				9B13D26D1EFE57F000E76414 /* SelectionTextField.swift in Sources */,
+				9BE4647D1F360F0F00244FD2 /* MTChangePasswordView.swift in Sources */,
+				9B13D26A1EFE57F000E76414 /* MTPickerView.swift in Sources */,
+				9B13D1FF1EFE57F000E76414 /* MTConstant.swift in Sources */,
+				9B13D2861EFE57F000E76414 /* MTSideMenuTableView.swift in Sources */,
+				9BF9F0DB1F47635700DEBB48 /* MTServicePackageDetailTableViewCell.swift in Sources */,
+				9BCF32AB1F2DAAC700D5EFC9 /* MTCalendarViewControler.swift in Sources */,
+				9BE464761F35B50F00244FD2 /* MTTimeslotView.swift in Sources */,
+				9B13D25A1EFE57F000E76414 /* MTResetPinView.swift in Sources */,
+				9B13D2851EFE57F000E76414 /* MTCollapsibleTableViewHeader.swift in Sources */,
+				9B13D1FE1EFE57F000E76414 /* AppDelegate.swift in Sources */,
+				9B13D2561EFE57F000E76414 /* MTResetPasswordView.swift in Sources */,
+				9B7A45C11F2C359800CD88DB /* MTTeamMemberViewControler.swift in Sources */,
+				9B13D22F1EFE57F000E76414 /* MTBaseServiceManager.swift in Sources */,
+				9BE4A5221F232E9C00D361C6 /* MTOfferServiceManager.swift in Sources */,
+				9B13D22C1EFE57F000E76414 /* MTNetworkConfig.swift in Sources */,
+				9B7A45C01F2C359800CD88DB /* MTTeamMemberListViewControler.swift in Sources */,
+				9B5DA5191F053E580038C281 /* MTOrderStatusTableViewCell.swift in Sources */,
+				9B13D2361EFE57F000E76414 /* MTLogger.swift in Sources */,
+				9B13D26C1EFE57F000E76414 /* PickerView.swift in Sources */,
+				9B7A45CA1F2D0DDC00CD88DB /* MTTeamMemberServiceManager.swift in Sources */,
+				9B13D26E1EFE57F000E76414 /* ToolBarView.swift in Sources */,
+				9B3C11951F365ECF00720153 /* MTOrderDeclineTableViewCell.swift in Sources */,
+				9B13D2081EFE57F000E76414 /* MTHomeViewControler.swift in Sources */,
+				9B13D22B1EFE57F000E76414 /* MTDataModel.swift in Sources */,
+				9B47DDCB1F035F3A0015FA03 /* MTReceiptTableViewCell.swift in Sources */,
+				9B47DDC61F035E300015FA03 /* MTMyOrdersTableViewCell.swift in Sources */,
+				9BF9F0D01F475EFA00DEBB48 /* MTSelectServiceListViewController.swift in Sources */,
+				9B13D2041EFE57F000E76414 /* MTBaseViewController.swift in Sources */,
+				9B13D2351EFE57F000E76414 /* MTExtensions.swift in Sources */,
+				9B13D2091EFE57F000E76414 /* MTMainViewController.swift in Sources */,
+				9B13D2291EFE57F000E76414 /* MTBookingServiceDataModel.swift in Sources */,
+				9BDDD9721F408845005F3055 /* MTMerchantReviewsTableViewCell.swift in Sources */,
+				9BE4A52B1F239EC600D361C6 /* MTOfferDetailViewControler.swift in Sources */,
+				9B13D25C1EFE57F000E76414 /* MTVerifyOTPPinView.swift in Sources */,
+				9BE4A51E1F23256800D361C6 /* MTDashboardServiceManager.swift in Sources */,
+				9B13D2701EFE57F000E76414 /* MTProgressView.swift in Sources */,
+				9BF9F0D91F47635700DEBB48 /* MTServicePackageDetailsView.swift in Sources */,
+				9B13D26B1EFE57F000E76414 /* Picker.swift in Sources */,
+				9BE3EC1E1F31679900487C7A /* MTProfileViewControler.swift in Sources */,
+				9B3C11931F365ECF00720153 /* MTOrderDeclineSelectionView.swift in Sources */,
+				9BD566CC1F0D0ABA00968CBE /* MTOrderBaseViewController.swift in Sources */,
+				9B7A45C51F2C4E0E00CD88DB /* MTTeamMemberTableViewCell.swift in Sources */,
+				9BE50D151F56E62C0077BEDA /* MTMerchantReviewPopupView.swift in Sources */,
+				9B13D2051EFE57F000E76414 /* MTLoginViewController.swift in Sources */,
+				9BF9F0D11F475EFA00DEBB48 /* MTSelectServiceViewController.swift in Sources */,
+				9BF9F0D31F47628000DEBB48 /* MTAWSS3ServiceManager.swift in Sources */,
+				9B13D24E1EFE57F000E76414 /* MTAppRatingView.swift in Sources */,
+				9B13D2311EFE57F000E76414 /* MTProfileServiceManager.swift in Sources */,
+				9BC739F41F0506DC00D43C72 /* MTOrderServiceManager.swift in Sources */,
+				9BF9F0E01F47647500DEBB48 /* MTServiceListTableViewCell.swift in Sources */,
+				9B47DDC11F0359D20015FA03 /* MTOrderListViewController.swift in Sources */,
+				9B7A45C81F2C66F400CD88DB /* MTTeamMemberDetailViewController.swift in Sources */,
+				9B47DDC01F0359D20015FA03 /* MTOrderDetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B13D19A1EFE57F000E76414 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B13D19B1EFE57F000E76414 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		9B13D1F41EFE57F000E76414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B13D1F51EFE57F000E76414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B13D1F61EFE57F000E76414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B13D1F71EFE57F000E76414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B656C0D1E9CDB1E0010ED2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B656C0E1E9CDB1E0010ED2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B656C101E9CDB1E0010ED2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC78C1BFE2235B2234F0E68D /* Pods-MotrssMerchantApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APP_BUNDLE_ID = com.motrss.merchantapp.dev;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 57JKNE8E8S;
+				INFOPLIST_FILE = "$(SRCROOT)/MotrssMerchantApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MotrssMerchantApp/Classes/Utils/Lib/TestFairySDK-1.9.1",
+					"$(PROJECT_DIR)/MotrssMerchantApp/Classes/Utils/Lib/TestFairySDK-1.9.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.motrss.merchantapp.dev;
+				PRODUCT_NAME = Merchant;
+				PROVISIONING_PROFILE = "4be92361-1b89-463f-b29d-907f4c7dc3ca";
+				PROVISIONING_PROFILE_SPECIFIER = "Motrss Merchant App Dev Profile";
+				SWIFT_OBJC_BRIDGING_HEADER = MotrssMerchantApp/Classes/Utils/Bridging.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9B656C111E9CDB1E0010ED2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9808A299E3D378989F1EB062 /* Pods-MotrssMerchantApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APP_BUNDLE_ID = com.motrss.merchantapp.release;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"COCOAPODS=1",
+					"RELEASE=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MotrssMerchantApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MotrssMerchantApp/Classes/Utils/Lib/TestFairySDK-1.9.1",
+					"$(PROJECT_DIR)/MotrssMerchantApp/Classes/Utils/Lib/TestFairySDK-1.9.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.motrss.merchantapp.dev;
+				PRODUCT_NAME = Merchant;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
+				SWIFT_OBJC_BRIDGING_HEADER = MotrssMerchantApp/Classes/Utils/Bridging.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9B83260A1E9E1E52007D30ED /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Distribution;
+		};
+		9B83260B1E9E1E52007D30ED /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26B908F49B8367E6FBB2E8B5 /* Pods-MotrssMerchantApp.distribution.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				APP_BUNDLE_ID = com.motrss.merchantapp.distribution;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DIST=1",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/MotrssMerchantApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MotrssMerchantApp/Classes/Utils/Lib/TestFairySDK-1.9.1",
+					"$(PROJECT_DIR)/MotrssMerchantApp/Classes/Utils/Lib/TestFairySDK-1.9.1",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.motrss.merchantapp.dev;
+				PRODUCT_NAME = Merchant;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DIST;
+				SWIFT_OBJC_BRIDGING_HEADER = MotrssMerchantApp/Classes/Utils/Bridging.h;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B656BF81E9CDB1E0010ED2F /* Build configuration list for PBXProject "MotrssMerchantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B656C0D1E9CDB1E0010ED2F /* Debug */,
+				9B83260A1E9E1E52007D30ED /* Distribution */,
+				9B656C0E1E9CDB1E0010ED2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B656C0F1E9CDB1E0010ED2F /* Build configuration list for PBXNativeTarget "MotrssMerchantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B656C101E9CDB1E0010ED2F /* Debug */,
+				9B83260B1E9E1E52007D30ED /* Distribution */,
+				9B656C111E9CDB1E0010ED2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B656BF51E9CDB1E0010ED2F /* Project object */;
+}
